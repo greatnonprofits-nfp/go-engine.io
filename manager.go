@@ -1,9 +1,9 @@
 package engineio
 
 import (
-	"strconv"
+	"github.com/google/uuid"
+	"log"
 	"sync"
-	"sync/atomic"
 )
 
 // SessionIDGenerator generates new session id. Default behavior is simple
@@ -16,12 +16,15 @@ type SessionIDGenerator interface {
 }
 
 type defaultIDGenerator struct {
-	nextID uint64
+	nextID string
 }
 
 func (g *defaultIDGenerator) NewID() string {
-	id := atomic.AddUint64(&g.nextID, 1)
-	return strconv.FormatUint(id, 36)
+	UUID, err := uuid.NewUUID()
+	if err != nil {
+		log.Fatal(err)
+	}
+	return UUID.String()
 }
 
 type manager struct {

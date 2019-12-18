@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/googollee/go-engine.io/base"
+	"github.com/greatnonprofits-nfp/go-engine.io/base"
 
 	"github.com/stretchr/testify/assert"
 )

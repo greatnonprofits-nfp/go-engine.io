@@ -10,10 +10,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/googollee/go-engine.io/base"
-	"github.com/googollee/go-engine.io/transport"
-	"github.com/googollee/go-engine.io/transport/polling"
-	"github.com/googollee/go-engine.io/transport/websocket"
+	"github.com/greatnonprofits-nfp/go-engine.io/base"
+	"github.com/greatnonprofits-nfp/go-engine.io/transport"
+	"github.com/greatnonprofits-nfp/go-engine.io/transport/polling"
+	"github.com/greatnonprofits-nfp/go-engine.io/transport/websocket"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

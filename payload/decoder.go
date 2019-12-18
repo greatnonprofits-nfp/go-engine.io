@@ -6,7 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/googollee/go-engine.io/base"
+	"github.com/greatnonprofits-nfp/go-engine.io/base"
 )
 
 type byteReader interface {

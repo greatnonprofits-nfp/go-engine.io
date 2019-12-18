@@ -1,7 +1,8 @@
-module github.com/googollee/go-engine.io
+module github.com/greatnonprofits-nfp/go-engine.io
 
 require (
 	github.com/golang/lint v0.0.0-20181217174547-8f45f776aaf1 // indirect
+	github.com/google/uuid v1.1.1 // indirect
 	github.com/gordonklaus/ineffassign v0.0.0-20180909121442-1003c8bd00dc // indirect
 	github.com/gorilla/websocket v1.4.0
 	github.com/stretchr/testify v1.3.0

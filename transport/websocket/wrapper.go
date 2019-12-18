@@ -4,8 +4,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/googollee/go-engine.io/base"
-	"github.com/googollee/go-engine.io/transport"
+	"github.com/greatnonprofits-nfp/go-engine.io/base"
+	"github.com/greatnonprofits-nfp/go-engine.io/transport"
 	"github.com/gorilla/websocket"
 )
 
