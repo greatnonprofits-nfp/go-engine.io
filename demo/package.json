@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "engine.io": "^1.6.11",
+    "engine.io": "^3.6.1",
     "engine.io-client": "^1.6.11"
   }
 }
